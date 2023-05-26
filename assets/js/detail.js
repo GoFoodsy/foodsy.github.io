@@ -30,8 +30,6 @@ fetchData(null, data => {
         url
     } = data.recipe;
 
-    console.log(data);
-
     document.title = `${title} - Foodsy`;
 
     const /** {Object} */ banner = LARGE ?? REGULAR ?? SMALL ?? THUMBNAIL;
