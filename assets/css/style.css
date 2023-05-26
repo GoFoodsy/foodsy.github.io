@@ -297,6 +297,7 @@ main {
 
 /* REUSED STYLES */
 
+
 .has-state {
   position: relative;
   overflow: hidden;
@@ -1301,6 +1302,7 @@ main {
 
   /* REUSED STYLE */
 
+
   .container {
     padding-inline: 32px;
   }
@@ -1563,11 +1565,14 @@ main {
   }
 }
 
+
+
 /* Responsive for larger than 768px screen */
 
 @media (min-width: 768px) {
 
   /* REUSED STYLE */
+
 
   :root {
 
@@ -1585,6 +1590,7 @@ main {
   }
 
   /* REUSED STYLE */
+
 
   .snackbar-container {
     bottom: 32px;
@@ -1644,6 +1650,7 @@ main {
 
 @media (min-width: 1400px) {
   /* REUSED STYLE */
+
 
   .container {
     max-width: 1280px;
