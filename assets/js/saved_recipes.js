@@ -1,1 +1,65 @@
-'use strict';const _0x26e55e=_0x2b7b;(function(_0x625d6e,_0x49d7b3){const _0x3247ed=_0x2b7b,_0xac7f3d=_0x625d6e();while(!![]){try{const _0x29fe16=parseInt(_0x3247ed(0x102))/0x1+-parseInt(_0x3247ed(0xf1))/0x2+-parseInt(_0x3247ed(0xf0))/0x3+parseInt(_0x3247ed(0x104))/0x4*(-parseInt(_0x3247ed(0xf7))/0x5)+parseInt(_0x3247ed(0x103))/0x6*(-parseInt(_0x3247ed(0xf4))/0x7)+parseInt(_0x3247ed(0xf5))/0x8+parseInt(_0x3247ed(0xfc))/0x9*(parseInt(_0x3247ed(0x107))/0xa);if(_0x29fe16===_0x49d7b3)break;else _0xac7f3d['push'](_0xac7f3d['shift']());}catch(_0x2539b5){_0xac7f3d['push'](_0xac7f3d['shift']());}}}(_0x4a25,0xc39d0));import{getTime}from'./module.js';function _0x4a25(){const _0x4665b1=['filter','classList','timeUnit','30333627PtIqNe','add','animationDelay','createElement','localStorage','grid-list','52989DmJUKd','5520ySOKpS','8deCpxC','-recipe','\x22\x20aria-label=\x22Add\x20to\x20saved\x20recipes\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20onclick=\x22saveRecipe(this,\x20\x27','10HTNmnQ','[data-saved-recipe-container]','innerHTML','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22icon-btn\x20has-state\x20','lastIndexOf','div','toLowerCase','\x22\x20class=\x22card-link\x22>','getItem','querySelector','</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22meta-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22meta-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x22\x20aria-hidden=\x22true\x22>schedule</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-medium\x22>','\x27)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x20bookmark-add\x22\x20aria-hidden=\x22true\x22>bookmark_add</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x20bookmark\x22\x20aria-hidden=\x22true\x22>bookmark</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','keys','removed','parse','appendChild','2278011FzLmZa','721660CjRGjf','card','\x20saved','3948eGmZzw','109640vUIpGZ','time','2492045tZRYwP','<p\x20class=\x22body-large\x22>You\x20don\x27t\x20saved\x20any\x20recipe\x20yet!</p>'];_0x4a25=function(){return _0x4665b1;};return _0x4a25();}import{appName}from'./global.js';const savedRecipes=Object[_0x26e55e(0xec)](window[_0x26e55e(0x100)])[_0x26e55e(0xf9)](_0x5e65ea=>{const _0x3aafdc=_0x26e55e;return _0x5e65ea['startsWith'](appName[_0x3aafdc(0x10d)]()+_0x3aafdc(0x105));}),$savedRecipeContainer=document[_0x26e55e(0xe9)](_0x26e55e(0x108));$savedRecipeContainer[_0x26e55e(0x109)]='<h2\x20class=\x22headline-small\x20section-title\x22>All\x20Saved\x20Recipes</h2>';function _0x2b7b(_0x3e4936,_0x2f6501){const _0x4a25ba=_0x4a25();return _0x2b7b=function(_0x2b7b34,_0x3ba5d7){_0x2b7b34=_0x2b7b34-0xe8;let _0x16ae4a=_0x4a25ba[_0x2b7b34];return _0x16ae4a;},_0x2b7b(_0x3e4936,_0x2f6501);}const $gridList=document[_0x26e55e(0xff)]('div');$gridList['classList'][_0x26e55e(0xfd)](_0x26e55e(0x101));savedRecipes['length']?savedRecipes['map']((_0x5ae74d,_0x1cb5f3)=>{const _0x4b1ebd=_0x26e55e,{recipe:{image:_0x216fec,label:_0x3638a1,totalTime:_0x574e73,uri:_0x221467}}=JSON[_0x4b1ebd(0xee)](window[_0x4b1ebd(0x100)][_0x4b1ebd(0xe8)](_0x5ae74d)),_0x4e5de2=_0x221467['slice'](_0x221467[_0x4b1ebd(0x10b)]('_')+0x1),_0x4b9f67=window[_0x4b1ebd(0x100)][_0x4b1ebd(0xe8)](appName[_0x4b1ebd(0x10d)]()+_0x4b1ebd(0x105)+_0x4e5de2),_0x1474e3=document[_0x4b1ebd(0xff)](_0x4b1ebd(0x10c));_0x1474e3[_0x4b1ebd(0xfa)][_0x4b1ebd(0xfd)](_0x4b1ebd(0xf2)),_0x1474e3['style'][_0x4b1ebd(0xfe)]=0x64*_0x1cb5f3+'ms',_0x1474e3['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<figure\x20class=\x22card-media\x20img-holder\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22'+_0x216fec+'\x22\x20width=\x22195\x22\x20height=\x22195\x22\x20loading=\x22lazy\x22\x20alt=\x22'+_0x3638a1+'\x22\x20class=\x22img-cover\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</figure>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20class=\x22title-small\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22./detail.html?recipe='+_0x4e5de2+_0x4b1ebd(0x10e)+(_0x3638a1??'Untitled')+_0x4b1ebd(0xea)+(getTime(_0x574e73)[_0x4b1ebd(0xf6)]||'<1')+'\x20'+getTime(_0x574e73)[_0x4b1ebd(0xfb)]+_0x4b1ebd(0x10a)+(_0x4b9f67?_0x4b1ebd(0xf3):_0x4b1ebd(0xed))+_0x4b1ebd(0x106)+_0x4e5de2+_0x4b1ebd(0xeb),$gridList[_0x4b1ebd(0xef)](_0x1474e3);}):$savedRecipeContainer[_0x26e55e(0x109)]+=_0x26e55e(0xf8);$savedRecipeContainer[_0x26e55e(0xef)]($gridList);
+"use strict";
+
+// Import(s)
+
+import { getTime } from "./module.js";
+import { appName } from "./global.js";
+
+const /** {Array} */ savedRecipes = Object.keys(window.localStorage).filter(item => {
+    return item.startsWith(`${appName.toLowerCase()}-recipe`);
+});
+
+const /** {NodeElement} */ $savedRecipeContainer = document.querySelector("[data-saved-recipe-container]");
+
+$savedRecipeContainer.innerHTML = `<h2 class="headline-small section-title">All Saved Recipes</h2>`;
+const /** {NodeElement} */ $gridList = document.createElement("div");
+$gridList.classList.add("grid-list");
+
+if (savedRecipes.length) {
+    savedRecipes.map((savedRecipe, index) => {
+
+        const {
+            recipe: {
+                image,
+                label: title,
+                totalTime: cookingTime,
+                uri
+            }
+        } = JSON.parse(window.localStorage.getItem(savedRecipe));
+
+        const /** {String} */ recipeId = uri.slice(uri.lastIndexOf("_") + 1);
+        const /** {undefined || String} */ isSaved = window.localStorage.getItem(`${appName.toLowerCase()}-recipe${recipeId}`)
+        const /** {NodeElement} */ $card = document.createElement("div");
+        $card.classList.add("card");
+        $card.style.animationDelay = `${100 * index}ms`;
+
+        $card.innerHTML = `
+            <figure class="card-media img-holder">
+                <img src="${image}" width="195" height="195" loading="lazy" alt="${title}" class="img-cover">
+            </figure>
+            <div class="card-body">
+                <h3 class="title-small">
+                <a href="./detail.html?recipe=${recipeId}" class="card-link">${title ?? "Untitled"}</a>
+                </h3>
+                <div class="meta-wrapper">
+                <div class="meta-item">
+                    <span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+                    <span class="label-medium">${getTime(cookingTime).time || "<1"} ${getTime(cookingTime).timeUnit}</span>
+                </div>
+                <button class="icon-btn has-state ${isSaved ? " saved" : "removed"}" aria-label="Add to saved recipes"
+                onclick="saveRecipe(this, '${recipeId}')">
+                <span class="material-symbols-outlined bookmark-add" aria-hidden="true">bookmark_add</span>
+                <span class="material-symbols-outlined bookmark" aria-hidden="true">bookmark</span>
+                </button>
+                </div>
+            </div>
+            `;
+
+        $gridList.appendChild($card);
+
+    });
+} else {
+    $savedRecipeContainer.innerHTML += `<p class="body-large">You don't saved any recipe yet!</p>`
+}
+
+$savedRecipeContainer.appendChild($gridList);

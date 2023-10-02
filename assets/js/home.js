@@ -1,1 +1,229 @@
-'use strict';const _0x581cb9=_0x4e86;(function(_0x5d6d51,_0x5b2824){const _0x1643a8=_0x4e86,_0x432220=_0x5d6d51();while(!![]){try{const _0x2cece7=-parseInt(_0x1643a8(0xcf))/0x1*(parseInt(_0x1643a8(0x101))/0x2)+parseInt(_0x1643a8(0x102))/0x3+parseInt(_0x1643a8(0xeb))/0x4+-parseInt(_0x1643a8(0x103))/0x5+parseInt(_0x1643a8(0xe0))/0x6+parseInt(_0x1643a8(0xff))/0x7+parseInt(_0x1643a8(0x114))/0x8*(-parseInt(_0x1643a8(0xe9))/0x9);if(_0x2cece7===_0x5b2824)break;else _0x432220['push'](_0x432220['shift']());}catch(_0x424c77){_0x432220['push'](_0x432220['shift']());}}}(_0xf804,0xa17ad));import{fetchData}from'./api.js';import{$skeletonCard,appName,cardQueries}from'./global.js';import{getTime}from'./module.js';const $searchField=document[_0x581cb9(0x10c)](_0x581cb9(0x110)),$searchBtn=document['querySelector'](_0x581cb9(0xe7));$searchBtn['addEventListener'](_0x581cb9(0xdf),function(){const _0x160328=_0x581cb9;if($searchField[_0x160328(0xfc)])window[_0x160328(0xea)]=_0x160328(0xce)+$searchField[_0x160328(0xfc)];}),$searchField[_0x581cb9(0xf9)](_0x581cb9(0xd3),_0x1bc33c=>{const _0x531d72=_0x581cb9;if(_0x1bc33c[_0x531d72(0xd0)]==='Enter')$searchBtn[_0x531d72(0xdf)]();});const $tabBtns=document[_0x581cb9(0xfa)](_0x581cb9(0xcc)),$tabPanels=document[_0x581cb9(0xfa)](_0x581cb9(0xe2));let [$lastActiveTabPanel]=$tabPanels,[$lastActiveTabBtn]=$tabBtns;addEventOnElements($tabBtns,_0x581cb9(0xdf),function(){const _0x58978c=_0x581cb9;$lastActiveTabPanel['setAttribute']('hidden',''),$lastActiveTabBtn[_0x58978c(0xee)](_0x58978c(0xe5),![]),$lastActiveTabBtn[_0x58978c(0xee)]('tabindex',-0x1);const _0x3b287d=document[_0x58978c(0x10c)]('#'+this[_0x58978c(0xef)](_0x58978c(0xc0)));_0x3b287d[_0x58978c(0x115)]('hidden'),this['setAttribute'](_0x58978c(0xe5),!![]),this[_0x58978c(0xee)](_0x58978c(0xe4),0x0),$lastActiveTabPanel=_0x3b287d,$lastActiveTabBtn=this,addTabContent(this,_0x3b287d);}),addEventOnElements($tabBtns,_0x581cb9(0xd3),function(_0x57570a){const _0x8a02ed=_0x581cb9,_0x37d401=this[_0x8a02ed(0x111)],_0x3b0139=this[_0x8a02ed(0xd5)];if(_0x57570a[_0x8a02ed(0xd0)]===_0x8a02ed(0x105)&&_0x37d401)this['setAttribute']('tabindex',-0x1),_0x37d401[_0x8a02ed(0xee)](_0x8a02ed(0xe4),0x0),_0x37d401[_0x8a02ed(0xfb)]();else{if(_0x57570a[_0x8a02ed(0xd0)]===_0x8a02ed(0x113)&&_0x3b0139)this[_0x8a02ed(0xee)](_0x8a02ed(0xe4),-0x1),_0x3b0139[_0x8a02ed(0xee)](_0x8a02ed(0xe4),0x0),_0x3b0139['focus']();else _0x57570a[_0x8a02ed(0xd0)]===_0x8a02ed(0xd2)&&(this['setAttribute']('tabindex',-0x1),$lastActiveTabBtn[_0x8a02ed(0xee)](_0x8a02ed(0xe4),0x0));}});const addTabContent=(_0x17dd07,_0x139150)=>{const _0x639b2d=_0x581cb9,_0x28b9ab=document[_0x639b2d(0xc2)](_0x639b2d(0xf4));_0x28b9ab[_0x639b2d(0x106)][_0x639b2d(0xed)](_0x639b2d(0xdb)),_0x139150[_0x639b2d(0xd8)]=_0x639b2d(0x104)+$skeletonCard[_0x639b2d(0x112)](0xc)+_0x639b2d(0xfd),fetchData([[_0x639b2d(0xc8),_0x17dd07[_0x639b2d(0xc3)][_0x639b2d(0xc5)]()['toLowerCase']()],...cardQueries],function(_0x37c9e7){const _0x23394b=_0x639b2d;_0x139150[_0x23394b(0xd8)]='';for(let _0xe565da=0x0;_0xe565da<0xc;_0xe565da++){const {recipe:{image:_0x2a2f15,label:_0x46c43b,totalTime:_0x32b811,uri:_0x1c5687}}=_0x37c9e7['hits'][_0xe565da],_0x7bf93a=_0x1c5687[_0x23394b(0xf2)](_0x1c5687[_0x23394b(0x10f)]('_')+0x1),_0x2830cb=window['localStorage'][_0x23394b(0xca)](appName[_0x23394b(0xd1)]()+_0x23394b(0xe8)+_0x7bf93a),_0x19c703=document[_0x23394b(0xc2)](_0x23394b(0xf4));_0x19c703[_0x23394b(0x106)][_0x23394b(0xed)]('card'),_0x19c703[_0x23394b(0xe1)][_0x23394b(0xf6)]=0x64*_0xe565da+'ms',_0x19c703[_0x23394b(0xd8)]=_0x23394b(0xf3)+_0x2a2f15+_0x23394b(0xf0)+_0x46c43b+_0x23394b(0xc1)+_0x7bf93a+_0x23394b(0xcb)+(_0x46c43b??_0x23394b(0x100))+_0x23394b(0xe3)+(getTime(_0x32b811)[_0x23394b(0x107)]||'<1')+'\x20'+getTime(_0x32b811)[_0x23394b(0xec)]+_0x23394b(0xda)+(_0x2830cb?_0x23394b(0xf1):_0x23394b(0xd4))+_0x23394b(0x10b)+_0x7bf93a+_0x23394b(0x109),_0x28b9ab[_0x23394b(0xe6)](_0x19c703);}_0x139150['appendChild'](_0x28b9ab),_0x139150[_0x23394b(0xd8)]+=_0x23394b(0xc7)+_0x17dd07['textContent'][_0x23394b(0xc5)]()['toLowerCase']()+'\x22\x20class=\x22btn\x20btn-secondary\x20label-large\x20has-state\x22>Show\x20more</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';});};addTabContent($lastActiveTabBtn,$lastActiveTabPanel);let cuisineType=[_0x581cb9(0xc9),_0x581cb9(0xd6)];const $sliderSections=document[_0x581cb9(0xfa)](_0x581cb9(0xdc));function _0x4e86(_0x21a983,_0x252e84){const _0xf804bc=_0xf804();return _0x4e86=function(_0x4e86bb,_0x1ab7da){_0x4e86bb=_0x4e86bb-0xc0;let _0x370d00=_0xf804bc[_0x4e86bb];return _0x370d00;},_0x4e86(_0x21a983,_0x252e84);}function _0xf804(){const _0x29c308=['querySelectorAll','focus','value','\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','\x22\x20aria-label=\x22Add\x20to\x20saved\x20recipes\x22\x20onclick=\x22saveRecipe(this,\x20\x27','72828WGypcU','Untitled','38232mXDKfV','2473584vPVAPB','776000GwbEVv','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22grid-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','ArrowRight','classList','time','\x20Recipes</h2>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22slider\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20class=\x22slider-wrapper\x22\x20data-slider-wrapper>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x27)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x20bookmark-add\x22\x20aria-hidden=\x22true\x22>bookmark_add</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x20bookmark\x22\x20aria-hidden=\x22true\x22>bookmark</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','saved','\x22\x20aria-label=\x22Add\x20to\x20saved\x20recipes\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20onclick=\x22saveRecipe(this,\x20\x27','querySelector','\x22\x20class=\x22img-cover\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</figure>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20class=\x22title-small\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22./detail.html?recipe=','<li\x20class=\x22slider-item\x22>','lastIndexOf','[data-search-field]','nextElementSibling','repeat','ArrowLeft','32eHxDXt','removeAttribute','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22slider-item\x22\x20data-slider-item>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22./recipes.html?cuisineType=','aria-controls','\x22\x20class=\x22img-cover\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</figure>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20class=\x22title-small\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22./detail.html?recipe=','createElement','textContent','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22container\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20class=\x22section-title\x20headline-small\x22\x20id=\x22slider-label-1\x22>Latest\x20','trim','\x22\x20class=\x22load-more-card\x20has-state\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-large\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Show\x20more\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x22\x20aria-hidden=\x22true\x22>navigate_next</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22./recipes.html?mealType=','mealType','Asian','getItem','\x22\x20class=\x22card-link\x22>','[data-tab-btn]','slider-item','./recipes.html?q=','17RYQNwn','key','toLowerCase','Tab','keydown','removed','previousElement','French','</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</h3>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22meta-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22meta-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x22\x20aria-hidden=\x22true\x22>schedule</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-medium\x22>','innerHTML','\x22\x20width=\x22195\x22\x20height=\x22195\x22\x20loading=\x22lazy\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20alt\x20=\x20\x22','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22icon-btn\x20has-state\x20','grid-list','[data-slider-section]','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22icon-btn\x20has-state\x20','map','click','1393878Xwvppq','style','[data-tab-panel]','</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22meta-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22meta-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x22\x20aria-hidden=\x22true\x22>schedule</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-medium\x22>','tabindex','aria-selected','appendChild','[data-search-btn]','-recipe','2724768yJJYHU','location','5141424SzDAGH','timeUnit','add','setAttribute','getAttribute','\x22\x20width=\x22195\x22\x20height=\x22195\x22\x20loading=\x22lazy\x22\x20alt=\x22','\x20saved','slice','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<figure\x20class=\x22card-media\x20img-holder\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','div','\x27)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x20bookmark-add\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20aria-hidden=\x22true\x22>bookmark_add</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x20bookmark\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20aria-hidden=\x22true\x22>bookmark</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','animationDelay','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','[data-slider-wrapper]','addEventListener'];_0xf804=function(){return _0x29c308;};return _0xf804();}for(const [index,$sliderSection]of $sliderSections['entries']()){$sliderSection[_0x581cb9(0xd8)]=_0x581cb9(0xc4)+cuisineType[index]+_0x581cb9(0x108)+(_0x581cb9(0x10e)+$skeletonCard+'</li>')[_0x581cb9(0x112)](0xa)+_0x581cb9(0xf7);const $sliderWrapper=$sliderSection[_0x581cb9(0x10c)](_0x581cb9(0xf8));fetchData([...cardQueries,['cuisineType',cuisineType[index]]],function(_0x1ad050){const _0x23f3c0=_0x581cb9;$sliderWrapper[_0x23f3c0(0xd8)]='',_0x1ad050['hits'][_0x23f3c0(0xde)](_0x37f32d=>{const _0x5740eb=_0x23f3c0,{recipe:{image:_0xd175a0,label:_0x28bccd,totalTime:_0x5a7b01,uri:_0x2736f5}}=_0x37f32d,_0x5c93cb=_0x2736f5[_0x5740eb(0xf2)](_0x2736f5['lastIndexOf']('_')+0x1),_0x45ee40=window['localStorage'][_0x5740eb(0xca)](appName[_0x5740eb(0xd1)]()+_0x5740eb(0xe8)+_0x5c93cb),_0x2da2b9=document[_0x5740eb(0xc2)]('li');_0x2da2b9['classList'][_0x5740eb(0xed)](_0x5740eb(0xcd)),_0x2da2b9['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<figure\x20class=\x22card-media\x20img-holder\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22'+_0xd175a0+_0x5740eb(0xd9)+_0x28bccd+_0x5740eb(0x10d)+_0x5c93cb+_0x5740eb(0xcb)+(_0x28bccd??_0x5740eb(0x100))+_0x5740eb(0xd7)+(getTime(_0x5a7b01)[_0x5740eb(0x107)]||'<1')+'\x20'+getTime(_0x5a7b01)['timeUnit']+_0x5740eb(0xdd)+(_0x45ee40?_0x5740eb(0x10a):'removed')+_0x5740eb(0xfe)+_0x5c93cb+_0x5740eb(0xf5),$sliderWrapper[_0x5740eb(0xe6)](_0x2da2b9);}),$sliderWrapper['innerHTML']+=_0x23f3c0(0x116)+cuisineType[index][_0x23f3c0(0xd1)]()+_0x23f3c0(0xc6);});}
+"use strict";
+
+// Import
+import { fetchData } from './api.js';
+import { $skeletonCard, appName, cardQueries } from './global.js';
+import { getTime } from './module.js';
+
+// Home page Search
+
+const /** {NodeElement} */ $searchField = document.querySelector("[data-search-field]");
+const /** {NodeElement} */ $searchBtn = document.querySelector("[data-search-btn]");
+
+$searchBtn.addEventListener("click", function () {
+    if ($searchField.value) window.location = `./recipes.html?q=${$searchField.value}`
+});
+
+// Search submit when press "Enter" key
+
+$searchField.addEventListener("keydown", e => {
+    if (e.key === "Enter") $searchBtn.click();
+});
+
+// Tab panel navigation
+
+const /** {NodeList} */ $tabBtns = document.querySelectorAll("[data-tab-btn]");
+const /** {NodeList} */ $tabPanels = document.querySelectorAll("[data-tab-panel]");
+
+let /** {NodeElement} */[$lastActiveTabPanel] = $tabPanels;
+let /** {NodeElement} */[$lastActiveTabBtn] = $tabBtns;
+
+addEventOnElements($tabBtns, "click", function () {
+    $lastActiveTabPanel.setAttribute("hidden", "");
+    $lastActiveTabBtn.setAttribute("aria-selected", false);
+    $lastActiveTabBtn.setAttribute("tabindex", -1);
+
+    const /** {NodeElement} */ $currentTabPanel = document.querySelector(`#${this.getAttribute("aria-controls")}`);
+    $currentTabPanel.removeAttribute("hidden");
+    this.setAttribute("aria-selected", true);
+    this.setAttribute("tabindex", 0);
+
+    $lastActiveTabPanel = $currentTabPanel;
+    $lastActiveTabBtn = this;
+
+    addTabContent(this, $currentTabPanel)
+});
+
+// Navigate Tab with arrow keys
+
+addEventOnElements($tabBtns, "keydown", function (e) {
+    const /** {NodeElement} */ $nextElement = this.nextElementSibling;
+    const /** {NodeElement} */ $previousElement = this.previousElement;
+
+    if (e.key === "ArrowRight" && $nextElement) {
+        this.setAttribute("tabindex", -1);
+        $nextElement.setAttribute("tabindex", 0);
+        $nextElement.focus()
+    } else if (e.key === "ArrowLeft" && $previousElement) {
+        this.setAttribute("tabindex", -1);
+        $previousElement.setAttribute("tabindex", 0);
+        $previousElement.focus();
+    } else if (e.key === "Tab") {
+        this.setAttribute("tabindex", -1);
+        $lastActiveTabBtn.setAttribute("tabindex", 0);
+    }
+});
+
+/**
+ * WORK WITH API
+ * fetch data for tab content
+ */
+
+const addTabContent = ($currentTabBtn, $currentTabPanel) => {
+    const /** {NodeElement} */ $gridList = document.createElement("div");
+    $gridList.classList.add("grid-list");
+
+    $currentTabPanel.innerHTML = `
+        <div class="grid-list">
+            ${$skeletonCard.repeat(12)}
+        </div>
+    `;
+
+    fetchData([['mealType', $currentTabBtn.textContent.trim().toLowerCase()], ...cardQueries], function (data) {
+        $currentTabPanel.innerHTML = "";
+
+        for (let i = 0; i < 12; i++) {
+            const {
+                recipe: {
+                    image,
+                    label: title,
+                    totalTime: cookingTime,
+                    uri
+                }
+            } = data.hits[i];
+
+            const /** {String} */ recipeId = uri.slice(uri.lastIndexOf("_") + 1);
+            const /** {undefined || String} */ isSaved = window.localStorage.getItem(`${appName.toLowerCase()}-recipe${recipeId}`)
+            const /** {NodeElement} */ $card = document.createElement("div");
+            $card.classList.add("card");
+            $card.style.animationDelay = `${100 * i}ms`;
+
+            $card.innerHTML = `
+            <figure class="card-media img-holder">
+                <img src="${image}" width="195" height="195" loading="lazy" alt="${title}" class="img-cover">
+            </figure>
+            <div class="card-body">
+                <h3 class="title-small">
+                <a href="./detail.html?recipe=${recipeId}" class="card-link">${title ?? "Untitled"}</a>
+                </h3>
+                <div class="meta-wrapper">
+                <div class="meta-item">
+                    <span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+                    <span class="label-medium">${getTime(cookingTime).time || "<1"} ${getTime(cookingTime).timeUnit}</span>
+                </div>
+                <button class="icon-btn has-state ${isSaved ? " saved" : "removed"}" aria-label="Add to saved recipes"
+                onclick="saveRecipe(this, '${recipeId}')">
+                <span class="material-symbols-outlined bookmark-add" aria-hidden="true">bookmark_add</span>
+                <span class="material-symbols-outlined bookmark" aria-hidden="true">bookmark</span>
+                </button>
+                </div>
+            </div>
+            `;
+
+            $gridList.appendChild($card);
+        }
+
+        $currentTabPanel.appendChild($gridList);
+
+        $currentTabPanel.innerHTML += `
+            <a href="./recipes.html?mealType=${$currentTabBtn.textContent.trim().toLowerCase()}" class="btn btn-secondary label-large has-state">Show more</a>
+        `;
+    });
+}
+
+addTabContent($lastActiveTabBtn, $lastActiveTabPanel);
+
+// Fetch data for slider card
+
+let /** {String} */ cuisineType = ["Asian", "French"];
+
+const /** {NodeList} */ $sliderSections = document.querySelectorAll("[data-slider-section]");
+
+for (const [index, $sliderSection] of $sliderSections.entries()) {
+    $sliderSection.innerHTML = `
+        <div class="container">
+
+            <h2 class="section-title headline-small" id="slider-label-1">Latest ${cuisineType[index]} Recipes</h2>
+
+            <div class="slider">
+                <ul class="slider-wrapper" data-slider-wrapper>
+                    ${`<li class="slider-item">${$skeletonCard}</li>`.repeat(10)}
+                </ul>
+            <div>
+
+        </div>
+    `;
+
+    const /** {NodeElement} */ $sliderWrapper = $sliderSection.querySelector("[data-slider-wrapper]");
+
+    fetchData([...cardQueries, ["cuisineType", cuisineType[index]]], function (data) {
+
+        $sliderWrapper.innerHTML = "";
+
+        data.hits.map(item => {
+
+            const {
+                recipe: {
+                    image,
+                    label: title,
+                    totalTime: cookingTime,
+                    uri
+                }
+            } = item;
+
+            const /** {String} */ recipeId = uri.slice(uri.lastIndexOf("_") + 1);
+            const /** {undefined || String} */ isSaved = window.localStorage.getItem(`${appName.toLowerCase()}-recipe${recipeId}`);
+
+            const /** {NodeElement} */ $sliderItem = document.createElement("li");
+            $sliderItem.classList.add("slider-item");
+
+            $sliderItem.innerHTML = `
+                <div class="card">
+                <figure class="card-media img-holder">
+                <img src="${image}" width="195" height="195" loading="lazy"
+                    alt = "${title}" class="img-cover">
+            </figure>
+
+            <div class="card-body">
+
+                <h3 class="title-small">
+                    <a href="./detail.html?recipe=${recipeId}" class="card-link">${title ?? "Untitled"}</a>
+                </h3>
+
+        <div class="meta-wrapper">
+            <div class="meta-item">
+                <span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+
+                <span class="label-medium">${getTime(cookingTime).time || "<1"} ${getTime(cookingTime).timeUnit}</span>
+        </div>
+
+            <button class="icon-btn has-state ${isSaved ? "saved" : "removed"}" aria-label="Add to saved recipes" onclick="saveRecipe(this, '${recipeId}')">
+                <span class="material-symbols-outlined bookmark-add"
+                aria-hidden="true">bookmark_add</span>
+
+                <span class="material-symbols-outlined bookmark"
+                aria-hidden="true">bookmark</span>
+            </button>
+        </div>
+    </div>
+    </div>
+            `;
+
+            $sliderWrapper.appendChild($sliderItem);
+
+        });
+
+        $sliderWrapper.innerHTML += `
+            <li class="slider-item" data-slider-item>
+                <a href="./recipes.html?cuisineType=${cuisineType[index].toLowerCase()}" class="load-more-card has-state">
+                    <span class="label-large">
+                        Show more
+                    </span>
+                
+                    <span class="material-symbols-outlined" aria-hidden="true">navigate_next</span>
+                </a>
+            </li>
+        `;
+
+    });
+}

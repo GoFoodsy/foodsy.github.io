@@ -1,1 +1,155 @@
-'use strict';const _0x1cf00c=_0x4f45;(function(_0x3c6d00,_0x1cad73){const _0x1063a1=_0x4f45,_0x4823df=_0x3c6d00();while(!![]){try{const _0x32dc52=parseInt(_0x1063a1(0xf7))/0x1*(-parseInt(_0x1063a1(0xe2))/0x2)+parseInt(_0x1063a1(0xe9))/0x3*(-parseInt(_0x1063a1(0xd8))/0x4)+parseInt(_0x1063a1(0xf6))/0x5*(-parseInt(_0x1063a1(0xfd))/0x6)+parseInt(_0x1063a1(0xf8))/0x7*(parseInt(_0x1063a1(0xf5))/0x8)+parseInt(_0x1063a1(0xf0))/0x9+-parseInt(_0x1063a1(0x105))/0xa+-parseInt(_0x1063a1(0xfc))/0xb*(-parseInt(_0x1063a1(0xd0))/0xc);if(_0x32dc52===_0x1cad73)break;else _0x4823df['push'](_0x4823df['shift']());}catch(_0xb731be){_0x4823df['push'](_0x4823df['shift']());}}}(_0x1b56,0x8510c));import{fetchData}from'./api.js';import{getTime}from'./module.js';import{appName}from'./global.js';const $detailContainer=document[_0x1cf00c(0x109)](_0x1cf00c(0xe4));ACCESS_POINT+='/'+window[_0x1cf00c(0xed)]['search'][_0x1cf00c(0xd6)](window['location']['search'][_0x1cf00c(0xd2)]('=')+0x1),fetchData(null,_0x1728f7=>{const _0x6f08f4=_0x1cf00c,{images:{LARGE:_0x3cb97a,REGULAR:_0x5aa844,SMALL:_0x4d76d2,THUMBNAIL:_0x3c6412},label:_0x448ae7,source:_0x167b3a,ingredients:ingredients=[],totalTime:_0x1ac7b7=0x0,calories:calories=0x0,totalNutrients:_0x481509,cuisineType:cuisineType=[],dietLabels:dietLabels=[],dishType:dishType=[],yield:_0x5990fb=0x0,ingredientLines:ingredientLines=[],uri:_0x1f8a89,url:_0x3ec00f}=_0x1728f7[_0x6f08f4(0xd1)];document[_0x6f08f4(0xf2)]=_0x448ae7+_0x6f08f4(0xe0);const _0x20be1e=_0x3cb97a??_0x5aa844??_0x4d76d2??_0x3c6412,{url:_0x56eff2,width:_0xd4221,height:_0x3d3b6b}=_0x20be1e,_0x18a448=[...cuisineType,...dietLabels,...dishType];let _0x447a37='',_0x940ca2='';const _0x5c3f1c=_0x1f8a89[_0x6f08f4(0xd6)](_0x1f8a89[_0x6f08f4(0xfe)]('_')+0x1),_0x15d64f=window[_0x6f08f4(0xf1)]['getItem'](appName['toLowerCase']()+_0x6f08f4(0xcf)+_0x5c3f1c);_0x18a448[_0x6f08f4(0xfa)](_0x212a8f=>{const _0x4b2d55=_0x6f08f4;let _0x2d6308='';if(cuisineType[_0x4b2d55(0x108)](_0x212a8f))_0x2d6308='cuisineType';else dietLabels['includes'](_0x212a8f)?_0x2d6308=_0x4b2d55(0xdf):_0x2d6308='dishType';_0x447a37+=_0x4b2d55(0xe6)+_0x2d6308+'='+_0x212a8f[_0x4b2d55(0xd3)]()+_0x4b2d55(0xeb)+_0x212a8f+_0x4b2d55(0xff);}),ingredientLines['map'](_0x3b4b7a=>{const _0x4f26c2=_0x6f08f4;_0x940ca2+=_0x4f26c2(0xd9)+_0x3b4b7a+_0x4f26c2(0xd4);}),$detailContainer[_0x6f08f4(0xfb)]=_0x6f08f4(0x104)+_0x56eff2+_0x6f08f4(0xd7)+_0xd4221+_0x6f08f4(0xf4)+_0x3d3b6b+_0x6f08f4(0x106)+_0x448ae7+_0x6f08f4(0x103)+(_0x448ae7??'Untitled')+_0x6f08f4(0xdd)+(_0x15d64f?_0x6f08f4(0xe8):_0x6f08f4(0xe5))+_0x6f08f4(0xf9)+_0x5c3f1c+_0x6f08f4(0xe3)+_0x167b3a+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-stats\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22stats-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22display-medium\x22>'+ingredients['length']+'</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-medium\x22>Ingredients</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22stats-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22display-medium\x22>'+(getTime(_0x1ac7b7)[_0x6f08f4(0xea)]||'<1')+_0x6f08f4(0xe7)+getTime(_0x1ac7b7)[_0x6f08f4(0xe1)]+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22stats-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22display-medium\x22>'+Math[_0x6f08f4(0xde)](calories)+_0x6f08f4(0xef)+Math[_0x6f08f4(0xde)](_0x481509[_0x6f08f4(0x100)][_0x6f08f4(0x107)])+_0x6f08f4(0xf3)+Math[_0x6f08f4(0xde)](_0x481509['CA']['quantity'])+'</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-medium\x22>Calcium</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22stats-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22display-medium\x22>'+Math[_0x6f08f4(0xde)](_0x481509[_0x6f08f4(0xdc)][_0x6f08f4(0x107)])+'</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-medium\x22>Fat</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x447a37?_0x6f08f4(0xec)+_0x447a37+_0x6f08f4(0xee):'')+_0x6f08f4(0x101)+_0x5990fb+_0x6f08f4(0xd5)+(_0x940ca2?_0x6f08f4(0x102)+_0x940ca2+_0x6f08f4(0xda):'')+_0x6f08f4(0xdb)+_0x3ec00f+'\x22\x20target=\x22_blank\x22\x20class=\x22filter-chip\x20label-large\x20has-state\x22>Visit\x20the\x20recipe\x20on\x20author\x27s\x20website</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22body-medium\x22><b>NOTE:</b>\x20You\x20may\x20find\x20instructions/directions\x20there.</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20';});function _0x4f45(_0x42c379,_0xf8ee3f){const _0x1b5651=_0x1b56();return _0x4f45=function(_0x4f455c,_0x115a53){_0x4f455c=_0x4f455c-0xcf;let _0x587f47=_0x1b5651[_0x4f455c];return _0x587f47;},_0x4f45(_0x42c379,_0xf8ee3f);}function _0x1b56(){const _0x381017=['\x20Servings</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</h2>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','slice','\x22\x20width=\x22','51748WDiaiz','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22ingr-item\x22>','</ul>','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22visit-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22','FAT','</h1>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-secondary\x20has-state\x20has-icon\x20','floor','diet','\x20-\x20Foodsy','timeUnit','151934vmJKMk','\x27)\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x20bookmark-add\x22\x20aria-hidden=\x22true\x22>bookmark_add</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22material-symbols-outlined\x20bookmark\x22\x20aria-hidden=\x22true\x22>bookmark</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-large\x20save-text\x22>Save</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-large\x20unsaved-text\x22>UnSaved</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-author\x20label-large\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22span\x22>by</span>\x20','[data-detail-container]','removed','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22./recipes.html?','</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-medium\x22>','saved','93uETKwi','time','\x22\x20class=\x22filter-chip\x20label-large\x20has-state\x22>','<div\x20class=\x22tag-list\x22>','location','</div>','</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-medium\x22>Calories</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22stats-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22display-medium\x22>','253674YLOWmG','localStorage','title','</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-medium\x22>Protein</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22stats-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22display-medium\x22>','\x22\x20height=\x22','8OlLZIc','124565SvSclK','8uiCUMG','5182219AGjVfv','\x22\x20onclick=\x22saveRecipe(this,\x20\x27','map','innerHTML','37862UzGVjZ','48imZnBi','lastIndexOf','</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','PROCNT','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20class=\x22title-medium\x20ingr-title\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Ingredients\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22label-medium\x22>for\x20','<ul\x20class=\x22body-large\x20ingr-list\x22>','\x22\x20class=\x22img-cover\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</figure>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-content\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22title-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x22display-small\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<figure\x20class=\x22detail-banner\x20img-holder\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','9704360hrnykp','\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20alt=\x22','quantity','includes','querySelector','-recipe','6816Dbjviw','recipe','indexOf','toLowerCase','</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20'];_0x1b56=function(){return _0x381017;};return _0x1b56();}
+"use strict";
+
+// Import(s)
+
+import { fetchData } from "./api.js";
+import { getTime } from "./module.js";
+import { appName } from "./global.js";
+
+// Render data
+
+const /** {NodeElement} */ $detailContainer = document.querySelector("[data-detail-container]");
+
+ACCESS_POINT += `/${window.location.search.slice(window.location.search.indexOf("=") + 1)}`;
+
+fetchData(null, data => {
+    const {
+        images: { LARGE, REGULAR, SMALL, THUMBNAIL },
+        label: title,
+        source: author,
+        ingredients = [],
+        totalTime: cookingTime = 0,
+        calories = 0,
+        totalNutrients,
+        cuisineType = [],
+        dietLabels = [],
+        dishType = [],
+        yield: servings = 0,
+        ingredientLines = [],
+        uri,
+        url
+    } = data.recipe;
+
+    console.log(data);
+
+    document.title = `${title} - Foodsy`;
+
+    const /** {Object} */ banner = LARGE ?? REGULAR ?? SMALL ?? THUMBNAIL;
+    const { url: bannerUrl, width, height } = banner;
+    const /** {Array} */ tags = [...cuisineType, ...dietLabels, ...dishType];
+
+    let /** {String} */ tagElements = "";
+    let /** String */ ingredientItems = "";
+
+    const /** {String} */ recipeId = uri.slice(uri.lastIndexOf("_") + 1);
+    const /** {undefined || String} */ isSaved = window.localStorage.getItem(`${appName.toLowerCase()}-recipe${recipeId}`);
+
+    tags.map(tag => {
+
+        let /** {String} */ type = "";
+
+        if (cuisineType.includes(tag)) {
+            type = "cuisineType";
+        } else if (dietLabels.includes(tag)) {
+            type = "diet";
+        } else {
+            type = "dishType";
+        }
+
+        tagElements += `
+            <a href="./recipes.html?${type}=${tag.toLowerCase()}" class="filter-chip label-large has-state">${tag}</a>
+        `;
+
+    });
+
+    ingredientLines.map(ingredient => {
+        ingredientItems += `
+            <li class="ingr-item">${ingredient}</li>
+        `;
+    });
+
+    $detailContainer.innerHTML = `
+        <figure class="detail-banner img-holder">
+            <img src="${bannerUrl}" width="${width}" height="${height}"
+                alt="${title}" class="img-cover">
+        </figure>
+
+        <div class="detail-content">
+
+            <div class="title-wrapper">
+                <h1 class="display-small">${title ?? "Untitled"}</h1>
+
+                <button class="btn btn-secondary has-state has-icon ${isSaved ? "saved" : "removed"}" onclick="saveRecipe(this, '${recipeId}')">
+
+                    <span class="material-symbols-outlined bookmark-add" aria-hidden="true">bookmark_add</span>
+
+                    <span class="material-symbols-outlined bookmark" aria-hidden="true">bookmark</span>
+
+                    <span class="label-large save-text">Save</span>
+                    <span class="label-large unsaved-text">UnSaved</span>
+
+                </button>
+            </div>
+
+            <div class="detail-author label-large">
+                <span class="span">by</span> ${author}
+            </div>
+
+            <div class="detail-stats">
+
+                <div class="stats-item">
+                    <span class="display-medium">${ingredients.length}</span>
+
+                    <span class="label-medium">Ingredients</span>
+                </div>
+
+                <div class="stats-item">
+                    <span class="display-medium">${getTime(cookingTime).time || "<1"}</span>
+
+                    <span class="label-medium">${getTime(cookingTime).timeUnit}</span>
+                </div>
+
+                <div class="stats-item">
+                    <span class="display-medium">${Math.floor(calories)}</span>
+
+                    <span class="label-medium">Calories</span>
+                </div>
+
+                <div class="stats-item">
+                    <span class="display-medium">${Math.floor(totalNutrients.PROCNT.quantity)}</span>
+
+                    <span class="label-medium">Protein</span>
+                </div>
+
+                <div class="stats-item">
+                    <span class="display-medium">${Math.floor(totalNutrients.CA.quantity)}</span>
+
+                    <span class="label-medium">Calcium</span>
+                </div>
+
+                <div class="stats-item">
+                    <span class="display-medium">${Math.floor(totalNutrients.FAT.quantity)}</span>
+
+                    <span class="label-medium">Fat</span>
+                </div>
+
+            </div>
+
+            ${tagElements ? `<div class="tag-list">${tagElements}</div>` : ""}
+
+            <h2 class="title-medium ingr-title">
+                Ingredients
+                <span class="label-medium">for ${servings} Servings</span>
+            </h2>
+
+            ${ingredientItems ? `<ul class="body-large ingr-list">${ingredientItems}</ul>` : ""}
+
+            <div class="visit-section">
+                <a href="${url}" target="_blank" class="filter-chip label-large has-state">Visit the recipe on author's website</a>
+                <span class="body-medium"><b>NOTE:</b> You may find instructions/directions there.</span>
+            </div>
+
+        </div>
+    `;
+
+});

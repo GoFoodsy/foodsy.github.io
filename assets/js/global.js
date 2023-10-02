@@ -1,1 +1,73 @@
-'use strict';function _0x390f(){const _0x43a548=['toLowerCase','saveRecipe','9385wydymq','localStorage','setItem','29736204NvxzUV','-recipe','field','snackbar','422536ClAyeL','319379bePsoc','removeChild','classList','image','getItem','222NwtWWn','42dPcJlG','appendChild','\x0a\x20\x20\x20\x20<div\x20class=\x22card\x20skeleton-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22skeleton\x20card-banner\x22></div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22skeleton\x20card-title\x22></div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22skeleton\x20card-text\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a','3301650REfHkp','addEventListener','createElement','Remove\x20from\x20Recipe\x20book','add','label','Added\x20to\x20Recipe\x20book','1580jZqdom','div','animationend','removeItem','</p>','stringify','211004zMpEhR','6mQOOIc','toggle','17281fHsnff','removed','63VSUXzK','saved'];_0x390f=function(){return _0x43a548;};return _0x390f();}const _0x5bf602=_0x14f5;(function(_0x3d7c3d,_0x5787d5){const _0x5b803c=_0x14f5,_0x17ac20=_0x3d7c3d();while(!![]){try{const _0x3e82ab=parseInt(_0x5b803c(0x1f0))/0x1*(-parseInt(_0x5b803c(0x207))/0x2)+-parseInt(_0x5b803c(0x1f6))/0x3*(parseInt(_0x5b803c(0x206))/0x4)+parseInt(_0x5b803c(0x20f))/0x5*(parseInt(_0x5b803c(0x1f5))/0x6)+parseInt(_0x5b803c(0x20b))/0x7*(-parseInt(_0x5b803c(0x1ef))/0x8)+parseInt(_0x5b803c(0x1f9))/0x9+parseInt(_0x5b803c(0x200))/0xa*(-parseInt(_0x5b803c(0x209))/0xb)+parseInt(_0x5b803c(0x1eb))/0xc;if(_0x3e82ab===_0x5787d5)break;else _0x17ac20['push'](_0x17ac20['shift']());}catch(_0x138ce0){_0x17ac20['push'](_0x17ac20['shift']());}}}(_0x390f,0x78a0e));import{fetchData}from'./api.js';window['addEventOnElements']=(_0x5160bc,_0x4e8052,_0xb04fd4)=>{const _0x31bdda=_0x14f5;for(const _0x51fa98 of _0x5160bc){_0x51fa98[_0x31bdda(0x1fa)](_0x4e8052,_0xb04fd4);}};export const appName='Foodsy';export const cardQueries=[[_0x5bf602(0x1ed),'uri'],['field',_0x5bf602(0x1fe)],[_0x5bf602(0x1ed),_0x5bf602(0x1f3)],['field','totalTime']];export const $skeletonCard=_0x5bf602(0x1f8);const ROOT='https://api.edamam.com/api/recipes/v2';window[_0x5bf602(0x20e)]=function(_0x2e78a2,_0x305e79){const _0x4a512b=_0x5bf602,_0x5b7fb7=window['localStorage'][_0x4a512b(0x1f4)](appName['toLowerCase']()+'-recipe'+_0x305e79);ACCESS_POINT=ROOT+'/'+_0x305e79,!_0x5b7fb7?(fetchData(cardQueries,function(_0x5836c5){const _0x2efa48=_0x4a512b;window[_0x2efa48(0x210)][_0x2efa48(0x211)](appName[_0x2efa48(0x20d)]()+_0x2efa48(0x1ec)+_0x305e79,JSON[_0x2efa48(0x205)](_0x5836c5)),_0x2e78a2[_0x2efa48(0x1f2)][_0x2efa48(0x208)](_0x2efa48(0x20c)),_0x2e78a2[_0x2efa48(0x1f2)][_0x2efa48(0x208)](_0x2efa48(0x20a)),showNotification(_0x2efa48(0x1ff));}),ACCESS_POINT=ROOT):(window['localStorage'][_0x4a512b(0x203)](appName[_0x4a512b(0x20d)]()+'-recipe'+_0x305e79),_0x2e78a2[_0x4a512b(0x1f2)][_0x4a512b(0x208)](_0x4a512b(0x20c)),_0x2e78a2[_0x4a512b(0x1f2)]['toggle'](_0x4a512b(0x20a)),showNotification(_0x4a512b(0x1fc)));};const $snackbarContainer=document[_0x5bf602(0x1fb)](_0x5bf602(0x201));function _0x14f5(_0x4bbef6,_0xbed245){const _0x390fd5=_0x390f();return _0x14f5=function(_0x14f5fb,_0x46c675){_0x14f5fb=_0x14f5fb-0x1eb;let _0x57c8f3=_0x390fd5[_0x14f5fb];return _0x57c8f3;},_0x14f5(_0x4bbef6,_0xbed245);}$snackbarContainer['classList'][_0x5bf602(0x1fd)]('snackbar-container'),document['body']['appendChild']($snackbarContainer);function showNotification(_0x2c4b72){const _0x53150b=_0x5bf602,_0x48bd43=document[_0x53150b(0x1fb)](_0x53150b(0x201));_0x48bd43['classList'][_0x53150b(0x1fd)](_0x53150b(0x1ee)),_0x48bd43['innerHTML']='<p\x20class=\x22body-medium\x22>'+_0x2c4b72+_0x53150b(0x204),$snackbarContainer[_0x53150b(0x1f7)](_0x48bd43),_0x48bd43['addEventListener'](_0x53150b(0x202),_0x54c82f=>$snackbarContainer[_0x53150b(0x1f1)](_0x48bd43));}
+"use strict";
+
+import { fetchData } from "./api.js";
+
+/**
+ * Add event on multiple elements
+ * @param {NodeList} $elements NodeList
+ * @param {String} eventType Event type string
+ * @param {Function} callback Callback fuunction
+ */
+
+window.addEventOnElements = ($elements, eventType, callback) => {
+    for (const $element of $elements) {
+        $element.addEventListener(eventType, callback);
+    }
+}
+
+export const /** {String} */ appName = "Foodsy";
+
+export const /** {Array} */ cardQueries = [
+    ["field", "uri"],
+    ["field", "label"],
+    ["field", "image"],
+    ["field", "totalTime"],
+];
+
+// Skeleton card
+
+export const /** {String} */ $skeletonCard = `
+    <div class="card skeleton-card">
+        <div class="skeleton card-banner"></div>
+
+            <div class="card-body">
+            <div class="skeleton card-title"></div>
+
+            <div class="skeleton card-text"></div>
+        </div>
+    </div>
+`;
+
+const /** {String} */ ROOT = "https://api.edamam.com/api/recipes/v2";
+
+window.saveRecipe = function (element, recipeId) {
+    const /** {String} */  isSaved = window.localStorage.getItem(`${appName.toLowerCase()}-recipe${recipeId}`);
+    ACCESS_POINT = `${ROOT}/${recipeId}`;
+
+    if (!isSaved) {
+        fetchData(cardQueries, function (data) {
+            window.localStorage.setItem(`${appName.toLowerCase()}-recipe${recipeId}`, JSON.stringify(data));
+            element.classList.toggle("saved");
+            element.classList.toggle("removed");
+            showNotification("Added to Recipe book");
+        });
+        ACCESS_POINT = ROOT;
+    } else {
+        window.localStorage.removeItem(`${appName.toLowerCase()}-recipe${recipeId}`);
+        element.classList.toggle("saved");
+        element.classList.toggle("removed");
+        showNotification("Remove from Recipe book");
+    }
+}
+
+const /** {NodeElement} */ $snackbarContainer = document.createElement("div");
+$snackbarContainer.classList.add("snackbar-container");
+document.body.appendChild($snackbarContainer);
+
+function showNotification(message) {
+    const /** {NodeElement} */ $snackbar = document.createElement("div");
+    $snackbar.classList.add("snackbar");
+    $snackbar.innerHTML = `<p class="body-medium">${message}</p>`;
+    $snackbarContainer.appendChild($snackbar);
+    $snackbar.addEventListener("animationend", e => $snackbarContainer.removeChild($snackbar));
+}
